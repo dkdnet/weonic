@@ -35,7 +35,7 @@
         setTimeout(() => {
           let start = this.top - 1
           for (let i = start; i > start - 10; i--) {
-            this.items.splice(0, 0, i + ' - keep walking, be 2 with you.')
+            this.items.splice(0, 0, {'index': i, 'content': i + ' - keep walking, be 2 with you.'})
           }
           this.top = this.top - 10
 

@@ -82,7 +82,9 @@
     "vue-loader": "^10.0.0",
     "vue-template-compiler": "^2.1.0",
     "webpack": "^2.2.0",
-    "webpack-dev-server": "^2.3.0"
+    "webpack-dev-server": "^2.3.0",
+    "babel-plugin-transform-object-rest-spread": "^7.0.0-beta.3"
+
   },
   "directories": {},
   "dist": {
